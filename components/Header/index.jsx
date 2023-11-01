@@ -38,21 +38,9 @@ export default function Header() {
           <CloseSidebar onClick={showSidebar}>
             <FaTimes />
           </CloseSidebar>
-          <Link href="/">
-            <Ancora className={activeLink("")} onClick={showSidebar}>
-              Home
-            </Ancora>
-          </Link>
-          <Link href="projects">
-            <Ancora className={activeLink("projects")} onClick={showSidebar}>
-              Projects
-            </Ancora>
-          </Link>
-          <Link href="Contact">
-            <Ancora className={activeLink("contact")} onClick={showSidebar}>
-              Contact
-            </Ancora>
-          </Link>
+          <Link href="/">Home</Link>
+          <Link href="/projects">Projects</Link>
+          <Link href="/contact">Cotnact</Link>
         </NavLinks>
       </Content>
     </Container>
