@@ -18,7 +18,7 @@ export default function Header() {
   const [sidebar, setSidebar] = useState(false);
   const { asPath } = useRouter();
 
-  const showSidebar = () => setSidebar("sidebar");
+  const showSidebar = () => setSidebar(!sidebar);
 
   function activeLink(path) {
     return asPath === `/${path}` ? "active" : "";
@@ -40,7 +40,7 @@ export default function Header() {
           </CloseSidebar>
           <Link href="/">Home</Link>
           <Link href="/projects">Projects</Link>
-          <Link href="/contact">Cotnact</Link>
+          <Link href="/contact">Contact</Link>
         </NavLinks>
       </Content>
     </Container>
