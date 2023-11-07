@@ -55,7 +55,7 @@ export default function(){
       
           </Container_icon>
           <Container_text>
-            <p>Design by: <a href="https://github.com/WilliamDosSantos">WilliamDosSantos</a> </p>
+            {/* <p>Design by: <a href="https://github.com/WilliamDosSantos">WilliamDosSantos</a> </p> */}
             <p>Copyright ©2023 All rights reserved</p>
           </Container_text>
          </Container_content>
