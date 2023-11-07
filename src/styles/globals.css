@@ -13,7 +13,11 @@ body {
   text-align: -webkit-center;
 }
 
+a{
+  color: inherit;
+}
 a,
 button {
+  text-decoration: none;
   cursor: pointer;
 }
