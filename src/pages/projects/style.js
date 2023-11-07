@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 100px);
+ 
 `;
 
 export const Content = styled.div`
@@ -77,7 +77,7 @@ export const Li = styled.li`
   justify-content: start;
   word-break: break-word;
   margin: 10px 10px 20px;
-  border-bottom: 1px solid rgb(255, 255, 255, 0.6);
+ 
   // box-shadow: 1px 1px 1px 2px red;
   gap: 25px;
   border-radius: 10px 10px 0px 0px;
