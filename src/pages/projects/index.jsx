@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { FaArrowRight } from "react-icons/fa";
 import {
   Container,
   Content,
@@ -10,6 +11,10 @@ import {
   Created_at,
   Divtittle,
 } from "./style";
+import {
+  LinkProjects
+} from "../../styles/indexStyles.js"
+
 
 export default function Projects() {
   const [itemsApi, setItemsApi] = useState([]);
@@ -49,9 +54,9 @@ export default function Projects() {
               </Created_at>
               </Divtittle>
               <a href="">
-              <Button >
-                  Repositório
-              </Button>
+              <LinkProjects>
+                  Repositório <FaArrowRight/>
+              </LinkProjects>
               </a>
             </Li>
           ))}
