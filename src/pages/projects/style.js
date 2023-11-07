@@ -57,6 +57,11 @@ border-radius: 8px;
 border: 1px solid $primary-color;
 object-fit: cover;
 object-position: top;
+flex-shrink-wrap: 1;
+@media (max-width: 760px){
+  width: 250px;
+  height: 150px;
+}
 `
 
 export const Divtittle = styled.div`
@@ -69,15 +74,14 @@ export const Li = styled.li`
   display: flex;
   flex-direction: row;
   text-align: start;
-  justify-content: space-between;
-  padding: 0 20px;
+  justify-content: start;
   word-break: break-word;
   margin: 10px 10px 20px;
   border-bottom: 1px solid rgb(255, 255, 255, 0.6);
   // box-shadow: 1px 1px 1px 2px red;
-  gap: 5px;
+  gap: 25px;
   border-radius: 10px 10px 0px 0px;
-  padding: 10px;
+  padding: 10px 0px;
   @media (max-width: 760px) {
     font-size: 13px;
   }
@@ -89,4 +93,6 @@ export const TitleProject = styled.h3`
 
 export const Url = styled.span``;
 
-export const Created_at = styled.span``;
+export const Created_at = styled.span`
+margin-bottom: auto;
+`;

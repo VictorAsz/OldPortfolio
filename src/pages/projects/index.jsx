@@ -56,12 +56,13 @@ export default function Projects() {
                 Create data:{" "}
                 {Intl.DateTimeFormat("en").format(new Date(item.created_at))}
               </Created_at>
-              </Divtittle>
+              
               <a href="">
               <LinkProjects>
                   Repositório <FaArrowRight/>
               </LinkProjects>
               </a>
+              </Divtittle>
             </Li>
           ))}
         </Ul>
