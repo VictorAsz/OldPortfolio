@@ -11,7 +11,7 @@ import {
   Created_at,
   Divtittle,
   Img
-} from "./style";
+} from "../../styles/styleProject";
 import {
   LinkProjects
 } from "../../styles/indexStyles.js"
