@@ -10,9 +10,12 @@ import {
     Container_content,
     Container_icon,
     Container_text,
-    Button
+    Button,
+    Tooltip,
     
   } from "./style";
+
+
 
 // function copy(){
 
@@ -24,21 +27,33 @@ import {
 // }
 
 
+
+
 export default function(){
 
     return(
       
-        <>
-        
+        <>       
        <Container>
          <Container_content>
               <Container_icon>
-              <a href="https://www.linkedin.com/in/victoraszs/"><FaLinkedin/></a>
-              <a href=""><FaInstagram/></a>
-              <a href="https://github.com/VictorAsz"><FaGithubAlt/></a>
-              <Button type="button" onClick = { function(){
+              
+              <Button><a href="https://www.linkedin.com/in/victoraszs/"><FaLinkedin/></a><Tooltip className="tooltip">linkedin</Tooltip></Button>
+              <Button><a href=""><FaInstagram/></a><Tooltip className="tooltip">Instagram</Tooltip> </Button>
+              <Button><a href="https://github.com/VictorAsz"> <FaGithubAlt/></a> <Tooltip className="tooltip">Github</Tooltip> </Button>
+              
+              
+
+        
+              <Button  type="button" onClick = { function(){
                 navigator.clipboard.writeText('victor.a.schumann@gmail.com');
-              } }><FaEnvelope id="svg"/></Button>
+              } }><FaEnvelope id="svg"/>
+               <Tooltip className="tooltip">Copy</Tooltip>
+              
+              </Button>
+             
+             
+      
           </Container_icon>
           <Container_text>
             <p>Design by: <a href="https://github.com/WilliamDosSantos">WilliamDosSantos</a> </p>
