@@ -10,6 +10,7 @@ import {
   Button,
   Created_at,
   Divtittle,
+  Img
 } from "./style";
 import {
   LinkProjects
@@ -46,6 +47,9 @@ export default function Projects() {
         <Ul>
           {itemsApi.map((item) => (
             <Li key={item.id}>
+              <Img src="https://www.macobserver.com/wp-content/uploads/2019/05/workfeatured-GitHub-2.png"/>
+              
+
               <Divtittle>
               <TitleProject>{item.name.toUpperCase()}</TitleProject>
               <Created_at>

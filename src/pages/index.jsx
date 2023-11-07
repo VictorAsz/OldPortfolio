@@ -17,7 +17,7 @@ export default function Home() {
     <Container>
       <Content>
         <Infos>
-          <Name>Hello,I'm Victor Assunção</Name>
+          <Name>Hello, I'm Victor Assunção</Name>
           <Function>Student</Function>
           <Intro>
           "Hello, I'm a student currently learning ReactJS, but I'm also interested in game development and illustration.

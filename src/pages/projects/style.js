@@ -48,6 +48,17 @@ export const Button = styled.button`
 
 `
 
+export const Img = styled.img`
+width: 384px;
+height: 216px;
+background-color: $primary-color;
+color: $background-color;
+border-radius: 8px;
+border: 1px solid $primary-color;
+object-fit: cover;
+object-position: top;
+`
+
 export const Divtittle = styled.div`
 display:flex;
 flex-direction: column;
