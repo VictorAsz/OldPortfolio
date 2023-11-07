@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
         <title>Victor | dev</title>
       </Head>
       <Header></Header>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }

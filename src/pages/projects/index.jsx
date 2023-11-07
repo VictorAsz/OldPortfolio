@@ -33,13 +33,14 @@ export default function Projects() {
   }, []);
 
   return (
+    
     <Container>
       <Content>
         <Ul>
           {itemsApi.map((item) => (
             <Li key={item.id}>
-              <TitleProject>{item.name.toUpperCase()}</TitleProject>
-              <Url>URL: {item.url}</Url>
+              <a href={item.html_url} ><TitleProject>{item.name.toUpperCase()}</TitleProject></a>
+              <Url>{item.url}</Url>
               <Created_at>
                 Create data:{" "}
                 {Intl.DateTimeFormat("en").format(new Date(item.created_at))}
