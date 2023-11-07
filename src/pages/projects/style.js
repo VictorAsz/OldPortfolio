@@ -20,6 +20,8 @@ export const Content = styled.div`
 `;
 
 export const Ul = styled.ul`
+max-width: 300px;
+min-width: 100%;
   overflow-x: auto;
   height: inherit;
   &::-webkit-scrollbar {
@@ -33,13 +35,34 @@ export const Ul = styled.ul`
   }
 `;
 
+export const Button = styled.button`
+
+  font-size: 14px;
+  background-color: #b4b4b4;
+  color: black;
+  border: none; 
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+
+`
+
+export const Divtittle = styled.div`
+display:flex;
+flex-direction: column;
+`
+
+
 export const Li = styled.li`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: start;
+  justify-content: space-between;
+  padding: 0 20px;
   word-break: break-word;
   margin: 10px 10px 20px;
-  border-bottom: 2px solid rgb(132, 38, 139, 0.6);
+  border-bottom: 1px solid rgb(255, 255, 255, 0.6);
   // box-shadow: 1px 1px 1px 2px red;
   gap: 5px;
   border-radius: 10px 10px 0px 0px;
@@ -49,7 +72,9 @@ export const Li = styled.li`
   }
 `;
 
-export const TitleProject = styled.strong``;
+export const TitleProject = styled.h3`
+ letter-spacing: 1px;
+`;
 
 export const Url = styled.span``;
 

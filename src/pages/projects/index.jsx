@@ -6,7 +6,9 @@ import {
   Li,
   TitleProject,
   Url,
+  Button,
   Created_at,
+  Divtittle,
 } from "./style";
 
 export default function Projects() {
@@ -39,12 +41,18 @@ export default function Projects() {
         <Ul>
           {itemsApi.map((item) => (
             <Li key={item.id}>
-              <a href={item.html_url} ><TitleProject>{item.name.toUpperCase()}</TitleProject></a>
-              <Url>{item.url}</Url>
+              <Divtittle>
+              <TitleProject>{item.name.toUpperCase()}</TitleProject>
               <Created_at>
                 Create data:{" "}
                 {Intl.DateTimeFormat("en").format(new Date(item.created_at))}
               </Created_at>
+              </Divtittle>
+              <a href="">
+              <Button >
+                  Repositório
+              </Button>
+              </a>
             </Li>
           ))}
         </Ul>
