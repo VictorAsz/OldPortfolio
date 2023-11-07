@@ -39,15 +39,14 @@ export default function(){
               <Container_icon>
               
               <Button><a href="https://www.linkedin.com/in/victoraszs/"><FaLinkedin/></a><Tooltip className="tooltip">linkedin</Tooltip></Button>
-              <Button><a href=""><FaInstagram/></a><Tooltip className="tooltip">Instagram</Tooltip> </Button>
+              <Button><a href="https://www.instagram.com/victor_aszo/"><FaInstagram/></a><Tooltip className="tooltip">Instagram</Tooltip> </Button>
               <Button><a href="https://github.com/VictorAsz"> <FaGithubAlt/></a> <Tooltip className="tooltip">Github</Tooltip> </Button>
               
               
-
         
               <Button  type="button" onClick = { function(){
                 navigator.clipboard.writeText('victor.a.schumann@gmail.com');
-              } }><FaEnvelope id="svg"/>
+              } }><FaEnvelope/>
                <Tooltip className="tooltip">Copy</Tooltip>
               
               </Button>

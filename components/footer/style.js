@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 25vh;
+  min-height: 25vh;
   border-top: solid 1px rgba(255, 255, 255, 0.4);
   borer-radius: 0px 5px 0px 5px;
 
@@ -53,6 +53,11 @@ export const Button = styled.button`
   border: none;
   position: relative;
 
+  &:hover {
+    cursor: pointer;
+    color:  gray;
+    transition: 0.3s;
+  }
   &:hover .tooltip {
     visibility: visible;
     opacity: 1;
