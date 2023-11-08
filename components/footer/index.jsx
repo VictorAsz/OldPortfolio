@@ -3,6 +3,7 @@ import {
   FaLinkedin,
   FaInstagram,
   FaEnvelope,
+  FaWhatsapp,
   FaGithubAlt,
 } from "react-icons/fa";
 import {
@@ -39,7 +40,7 @@ export default function(){
               <Container_icon>
               
               <Button><a href="https://www.linkedin.com/in/victoraszs/"><FaLinkedin/></a><Tooltip className="tooltip">linkedin</Tooltip></Button>
-              <Button><a href="https://www.instagram.com/victor_aszo/"><FaInstagram/></a><Tooltip className="tooltip">Instagram</Tooltip> </Button>
+              <Button><a href="https://api.whatsapp.com/send?phone=5554984289836&text=Ol%C3%A1,%20temos%20interesse%20em%20contratar%20voc%C3%AA."><FaWhatsapp/></a><Tooltip className="tooltip">Whatsapp</Tooltip> </Button>
               <Button><a href="https://github.com/VictorAsz"> <FaGithubAlt/></a> <Tooltip className="tooltip">Github</Tooltip> </Button>
               
               
