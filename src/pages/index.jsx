@@ -19,7 +19,7 @@ export default function Home() {
       <Content>
         <Infos>
           <Name>Bem vindos,<br/> Eu sou Victor Assunção</Name>
-          <Function>Técnico de TI</Function>
+          <Function>| Técnico de TI</Function>
           <Intro>
           Sou um estudante de engenharia de software apaixonado por tecnologia. Atualmente, trabalho meio período como freelancer, oferecendo suporte técnico de TI e soluções personalizadas conforme a demanda. Além disso, mantenho meu foco nos estudos e em pequenos projetos de back-end, mas também tenho interesse na área de design e desenvolvimento de jogos.
           <br/><br/>

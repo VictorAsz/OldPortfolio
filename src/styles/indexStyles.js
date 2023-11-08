@@ -42,6 +42,7 @@ export const Name = styled.span`
 `;
 
 export const Function = styled.span`
+  font-size: 20px;
   color: lightgray;
   margin-bottom: 10px;
 `;

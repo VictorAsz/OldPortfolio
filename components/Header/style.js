@@ -107,3 +107,10 @@ font-size:  18px;
 }
 
 `
+export const Span2 = styled.span`
+@media (max-width: 560px) {
+  visibility: hidden;
+}
+
+
+`
