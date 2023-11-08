@@ -6,7 +6,7 @@ import {
   Name,
   Function,
   Intro,
-  LinkProjects,g
+  LinkProjects,
   Logo,
   Img,
   Div,
