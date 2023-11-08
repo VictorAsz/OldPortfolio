@@ -28,7 +28,8 @@ export const Content = styled.div`
 export const Infos = styled.div`
   text-align: start;
   width: 50%;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   @media (max-width: 760px) {
     width: 90%;
   }
