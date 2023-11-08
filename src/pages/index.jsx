@@ -9,9 +9,10 @@ import {
   LinkProjects,
   Logo,
   Img,
+  Div,
 } from "../styles/indexStyles";
 import Link from "next/link";
-
+import Imagen from '../img/Logo.jpg';
 export default function Home() {
   return (
     <Container>
@@ -26,15 +27,26 @@ export default function Home() {
           with new technologies and techniques, I'm always looking for opportunities to broaden my skill set and explore new frontiers
           in software development."
           </Intro>
+          
+          <Div>
           <Link href="projects">
             <LinkProjects>
               PROJECTS <FaArrowRight />
             </LinkProjects>
           </Link>
+          
+          <Link href="about">
+            <LinkProjects>
+              ABOUT <FaArrowRight />
+            </LinkProjects>
+            </Link>
+          </Div>
+
         </Infos>
-        {/* <Logo>
-          <Img src="/images/logo.png" alt="logo" />
-        </Logo> */}
+        <Logo>
+          <img src={Imagen} />
+        
+        </Logo>
       </Content>
     </Container>
   )

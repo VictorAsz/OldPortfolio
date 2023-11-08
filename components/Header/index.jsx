@@ -9,6 +9,7 @@ import {
   CloseSidebar,
   ContentTitle,
   SubTitle,
+  Span
 } from "./style";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Link from "next/link";
@@ -38,9 +39,11 @@ export default function Header() {
           <CloseSidebar onClick={showSidebar}>
             <FaTimes />
           </CloseSidebar>
-          <Link href="/">Home</Link>
-          <Link href="/projects">Projects</Link>
-          <Link href="/about">About</Link>
+          <Span><Link href="/">Home</Link></Span>
+          <Span><Link href="/projects">Projects</Link></Span>
+          <Span><Link href="/about">About</Link></Span>
+          
+         
         </NavLinks>
       </Content>
     </Container>

@@ -75,8 +75,14 @@ export const Logo = styled.div`
     width: 25rem;
     height: 25rem;
   }
+  @media (max-width: 900px) {
+    img {
+      width: 22rem;
+      height: 22rem;
+    }
   @media (max-width: 760px) {
     width: 90%;
+
   }
   @media (max-width: 600px) {
     img {
@@ -85,5 +91,13 @@ export const Logo = styled.div`
     }
   }
 `;
+
+export const Div = styled.div`
+display: flex;
+flex-direction: row;
+gap: 0.9rem;
+
+
+`
 
 export const Img = styled.img``;

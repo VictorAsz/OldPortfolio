@@ -41,6 +41,7 @@ export const NavLinks = styled.nav`
       justify-content: space-around;
     }
   }
+  
 `;
 
 export const Ancora = styled.a`
@@ -86,3 +87,13 @@ export const ContentTitle = styled.div`
 `;
 
 export const SubTitle = styled.span``;
+
+
+export const Span = styled.span`
+&:hover {
+  cursor: pointer;
+  color:  gray;
+  transition: 0.3s;
+}
+
+`
