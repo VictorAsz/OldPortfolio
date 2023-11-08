@@ -34,10 +34,19 @@ export const Infos = styled.div`
 `;
 
 export const Name = styled.span`
-  font-size: 40px;
-  font-weight: 500;
-  @media (max-width: 760px) {
-    font-size: 25px;
+  p {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  @media (max-width: 996px) {
+    p {
+      font-size: 35px;
+    }
+  }
+  @media (max-width: 875px) {
+    p {
+      font-size: 30px;
+    }
   }
 `;
 
@@ -45,13 +54,20 @@ export const Function = styled.span`
   font-size: 20px;
   color: lightgray;
   margin-bottom: 10px;
+  @media (max-width: 996px) {
+    font-size: 18px;
+  }
 `;
 
 export const Intro = styled.span`
   color: lightgray;
   text-align: justify;
-  @media (max-width: 760px) {
-    font-size: 15px;
+  text: 8;
+  p {
+    margin-bottom: 10px;
+  }
+  @media (max-width: 996px) {
+    font-size: 14px;
   }
 `;
 
@@ -68,18 +84,18 @@ export const LinkProjects = styled.button`
 `;
 
 export const Logo = styled.div`
-  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   img {
     width: 25rem;
     height: 25rem;
+    object-fit: cover;
   }
   @media (max-width: 900px) {
     img {
       width: 22rem;
-      height: 20rem;
+      height: 22rem;
     }
   @media (max-width: 760px) {
     width: 90%;
@@ -94,11 +110,9 @@ export const Logo = styled.div`
 `;
 
 export const Div = styled.div`
-display: flex;
-flex-direction: row;
-gap: 0.9rem;
-
-
-`
+  display: flex;
+  flex-direction: row;
+  gap: 0.9rem;
+`;
 
 export const Img = styled.img``;

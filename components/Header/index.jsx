@@ -40,13 +40,17 @@ export default function Header() {
           <CloseSidebar onClick={showSidebar}>
             <FaTimes />
           </CloseSidebar>
-          <Span><Link href="/">Home</Link></Span>
-          <Span2>|</Span2>
-          <Span><Link href="/projects">Projetos </Link></Span>
-          <Span2>|</Span2>
-          <Span><Link href="/about">Sobre Mim</Link></Span>
-          
-         
+          <Span>
+            <Link href="/">Home</Link>
+          </Span>
+
+          <Span>
+            <Link href="/projects">Projetos </Link>
+          </Span>
+
+          <Span>
+            <Link href="/about">Sobre Mim</Link>
+          </Span>
         </NavLinks>
       </Content>
     </Container>
