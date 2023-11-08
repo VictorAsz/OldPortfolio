@@ -78,7 +78,7 @@ export const Logo = styled.div`
   @media (max-width: 900px) {
     img {
       width: 22rem;
-      height: 22rem;
+      height: 20rem;
     }
   @media (max-width: 760px) {
     width: 90%;

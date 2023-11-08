@@ -12,7 +12,7 @@ import {
   Div,
 } from "../styles/indexStyles";
 import Link from "next/link";
-import Imagen from '../image/logo.jpg';
+
 export default function Home() {
   return (
     <Container>
@@ -44,7 +44,7 @@ export default function Home() {
 
         </Infos>
         <Logo>
-          <img src={Imagen} />
+          <Img src="https://i.ibb.co/yqmCpDZ/eu1.jpg" />
         
         </Logo>
       </Content>
