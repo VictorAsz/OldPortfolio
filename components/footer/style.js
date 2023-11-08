@@ -63,6 +63,7 @@ export const Button = styled.button`
     opacity: 1;
     color: white;
   }
+  
 `;
 
 export const Tooltip = styled.div`

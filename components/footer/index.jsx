@@ -48,7 +48,7 @@ export default function(){
               <Button  type="button" onClick = { function(){
                 navigator.clipboard.writeText('victor.a.schumann@gmail.com');
               } }><FaEnvelope/>
-               <Tooltip className="tooltip">Copy</Tooltip>
+               <Tooltip className="tooltip">Copiar E-mail</Tooltip>
               
               </Button>
              
