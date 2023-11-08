@@ -6,6 +6,9 @@ export const Container = styled.div`
   justify-content: center;
   // PARA DE ESQUECER QUE É "min-height"
   min-height: calc(100vh - 100px);
+  @media (max-width: 760px) {
+    padding: 40px 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -93,25 +96,17 @@ export const Logo = styled.div`
   align-items: center;
   justify-content: center;
   img {
-    width: 25rem;
-    height: 25rem;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 25rem;
+    max-height: 25rem;
     object-fit: cover;
   }
   @media (max-width: 900px) {
     img {
-      width: 22rem;
-      height: 22rem;
+      max-width: 22rem;
+      max-height: 22rem;
     }
-  @media (max-width: 760px) {
-    width: 90%;
-
-  }
-  @media (max-width: 600px) {
-    img {
-      width: 18rem;
-      height: 18rem;
-    }
-  }
 `;
 
 export const Div = styled.div`
