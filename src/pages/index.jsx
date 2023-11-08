@@ -18,26 +18,24 @@ export default function Home() {
     <Container>
       <Content>
         <Infos>
-          <Name>Hello, I'm Victor Assunção</Name>
-          <Function>Student</Function>
+          <Name>Bem vindos,<br/> Eu sou Victor Assunção</Name>
+          <Function>Técnico de TI</Function>
           <Intro>
-          "Hello, I'm a student currently learning ReactJS, but I'm also interested in game development and illustration.
-          I enjoy exploring the creative aspects of software development and I'm excited about the potential of combining my
-          interests in these areas to build engaging and immersive experiences for users. With a passion for learning and experimenting
-          with new technologies and techniques, I'm always looking for opportunities to broaden my skill set and explore new frontiers
-          in software development."
+          Sou um estudante de engenharia de software apaixonado por tecnologia. Atualmente, trabalho meio período como freelancer, oferecendo suporte técnico de TI e soluções personalizadas conforme a demanda. Além disso, mantenho meu foco nos estudos e em pequenos projetos de back-end, mas também tenho interesse na área de design e desenvolvimento de jogos.
+          <br/><br/>
+          Adoro explorar os aspectos criativos do meu trabalho e busco constantemente combinar meus interesses para criar soluções criativas, divertidas e funcionais. Tenho paixão por aprender e experimentar novas tecnologias e técnicas, o que me motiva a estar sempre estudando para expandir minhas habilidades. Estou animado para compartilhar minha jornada com vocês!
           </Intro>
           
           <Div>
           <Link href="projects">
             <LinkProjects>
-              PROJECTS <FaArrowRight />
+              PROJETOS <FaArrowRight />
             </LinkProjects>
           </Link>
           
           <Link href="about">
             <LinkProjects>
-              ABOUT <FaArrowRight />
+              SOBRE MIM <FaArrowRight />
             </LinkProjects>
             </Link>
           </Div>

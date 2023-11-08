@@ -5,7 +5,9 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 1px 20px 40px 30px rgba(0, 0, 0, 0.2)
+  
 `;
 
 export const Content = styled.div`
@@ -39,7 +41,9 @@ export const NavLinks = styled.nav`
       display: flex;
       align-items: center;
       justify-content: space-around;
+     
     }
+    
   }
   
 `;
@@ -56,6 +60,7 @@ export const Ancora = styled.a`
     align-items: center;
     display: flex;
     padding: 0px 10px;
+    
   }
 `;
 
@@ -63,9 +68,11 @@ export const Menu = styled.div`
   font-size: 30px;
   display: none;
   cursor: pointer;
+  
 
   @media (max-width: 560px) {
     display: flex;
+    
   }
 `;
 
@@ -76,6 +83,7 @@ export const CloseSidebar = styled.div`
   position: absolute;
   display: none;
   cursor: pointer;
+  
 
   @media (max-width: 560px) {
     display: flex;
@@ -84,12 +92,14 @@ export const CloseSidebar = styled.div`
 
 export const ContentTitle = styled.div`
   text-align: end;
+  
 `;
 
 export const SubTitle = styled.span``;
 
 
 export const Span = styled.span`
+font-size:  18px;
 &:hover {
   cursor: pointer;
   color:  gray;
