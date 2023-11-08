@@ -6,13 +6,13 @@ import {
   Name,
   Function,
   Intro,
-  LinkProjects,
+  LinkProjects,g
   Logo,
   Img,
   Div,
 } from "../styles/indexStyles";
 import Link from "next/link";
-import Imagen from '../img/Logo.jpg';
+import Imagen from '../image/logo.jpg';
 export default function Home() {
   return (
     <Container>
