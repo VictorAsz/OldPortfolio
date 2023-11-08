@@ -57,7 +57,7 @@ export default function Projects() {
                 {Intl.DateTimeFormat("en").format(new Date(item.created_at))}
               </Created_at>
               
-              <a href="">
+              <a href={item.html_url} target="_blank">
               <LinkProjects>
                   Repositório <FaArrowRight/>
               </LinkProjects>

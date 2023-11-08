@@ -40,7 +40,7 @@ export default function Header() {
           </CloseSidebar>
           <Link href="/">Home</Link>
           <Link href="/projects">Projects</Link>
-          <Link href="/contact">Contact</Link>
+          <Link href="/about">About</Link>
         </NavLinks>
       </Content>
     </Container>
