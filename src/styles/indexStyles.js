@@ -83,6 +83,9 @@ export const LinkProjects = styled.button`
   svg {
     font-size: 20px;
   }
+  @media (max-width: 382px) {
+    width: 8rem;
+  }
 `;
 
 export const Logo = styled.div`
