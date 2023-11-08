@@ -4,7 +4,8 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 100px);
+  // PARA DE ESQUECER QUE É "min-height"
+  min-height: calc(100vh - 100px);
 `;
 
 export const Content = styled.div`
