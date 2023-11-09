@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
+import ProfileImage from "../components/Profile/ProfileImage";
 import {
   Container,
   Content,
@@ -15,7 +16,8 @@ export default function Home() {
   return (
     <Container>
       <Content>
-        <Infos>          
+        
+        <Infos>   
           <Name>Bem vindos,<br /> Eu sou Victor Assunção</Name>
           <Function>| Técnico de TI</Function>
           <Intro>
@@ -37,8 +39,10 @@ export default function Home() {
               </LinkProjects>
             </Link>
           </Div>
-
+          
         </Infos>        
+        <ProfileImage />
+
       </Content>
     </Container>
   )
