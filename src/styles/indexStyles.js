@@ -26,22 +26,23 @@ export const Content = styled.div`
 export const Infos = styled.div`
   text-align: start;
   width: 50%;
-  display: grid;
-  @media (max-width: 760px) {
-    width: 90%;
+  @media (max-width: 760px) {    
+    padding: 10%;
+    padding-top: 0;
+    width: 100%;
   }
 `;
 
-export const Name = styled.span`
-  font-size: 40px;
+export const Name = styled.h1`  
   font-weight: 500;
-  @media (max-width: 760px) {
+  @media (max-width: 760px) {    
     font-size: 25px;
+    text-align: center;
   }
 `;
 
-export const Function = styled.span`
-  font-size: 20px;
+export const Function = styled.h3`
+  font-weight: 500;
   color: lightgray;
   margin-bottom: 10px;
 `;
@@ -55,7 +56,7 @@ export const Intro = styled.span`
 `;
 
 export const LinkProjects = styled.button`
-  width: 10rem;
+  width: 10em;
   padding: 10px;
   display: flex;
   justify-content: space-around;
