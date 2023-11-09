@@ -5,6 +5,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   min-height: calc(100vh - 100px);
+  @media (max-width: 760px){
+    margin: 5%;
+  }
+  
 `;
 
 export const Content = styled.div`

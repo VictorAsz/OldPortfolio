@@ -60,8 +60,8 @@ object-fit: cover;
 object-position: top;
 flex-shrink-wrap: 1;
 @media (max-width: 760px){
-  width: 250px;
-  height: 150px;
+  width: 160px;
+  height: 110px;
 }
 `
 

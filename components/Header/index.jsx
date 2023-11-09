@@ -30,7 +30,7 @@ export default function Header() {
     <Container>
       <Content>
         <ContentTitle>
-          <Title>Victor Assunção</Title>
+          <a href="/"><Title>Victor Assunção</Title></a>
           <SubTitle>Portfolio</SubTitle>
         </ContentTitle>
         <Menu>

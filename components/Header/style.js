@@ -19,6 +19,11 @@ export const Content = styled.div`
 
 export const Title = styled.div`
   font-size: 30px;
+  &:hover {
+    cursor: pointer;
+    color: gray;
+    transition: 0.3s;
+  }
 `;
 
 export const NavLinks = styled.nav`

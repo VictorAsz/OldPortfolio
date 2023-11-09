@@ -9,6 +9,7 @@ export const Container = styled.div`
   min-height: 25vh;
   border-top: solid 1px rgba(255, 255, 255, 0.4);
   borer-radius: 0px 5px 0px 5px;
+  margin-top: 10px;
 
 `
 export const Container_content = styled.div`
@@ -16,6 +17,7 @@ display: flex;
 flex-direction: column;
 height: 30%;
 width: 30%;
+margin: 15px;
 `
 
 export const Container_icon = styled.div`
