@@ -67,38 +67,7 @@ export const LinkProjects = styled.button`
   }
 `;
 
-export const Logo = styled.div`
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  img {
-    width: 25rem;
-    height: 25rem;
-  }
-  @media (max-width: 900px) {
-    img {
-      width: 22rem;
-      height: 20rem;
-    }
-  @media (max-width: 760px) {
-    width: 90%;
-
-  }
-  @media (max-width: 600px) {
-    img {
-      width: 18rem;
-      height: 18rem;
-    }
-  }
-`;
-
 export const Div = styled.div`
 display: flex;
 flex-direction: row;
-gap: 0.9rem;
-
-
-`
-
-export const Img = styled.img``;
+gap: 0.9rem;`
