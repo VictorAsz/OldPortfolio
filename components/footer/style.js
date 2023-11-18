@@ -22,13 +22,6 @@ margin: 15px;
 
 export const Container_icon = styled.div`
 
-display: flex;
-flex-direction: row;
-width: 100%;
-justify-content: center;
-align-items: center;
-gap: 8px;
-margin-bottom: 20px;
 svg {
     width: 50px;
     height: 50px;
