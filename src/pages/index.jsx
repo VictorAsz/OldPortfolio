@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
+import ProfileImage from "../components/Profile/ProfileImage";
 import {
   Container,
   Content,
@@ -7,8 +8,6 @@ import {
   Function,
   Intro,
   LinkProjects,
-  Logo,
-  Img,
   Div,
 } from "../styles/indexStyles";
 import Link from "next/link";
@@ -55,10 +54,10 @@ export default function Home() {
               </LinkProjects>
             </Link>
           </Div>
-        </Infos>
-        <Logo>
-          <Img src="https://i.ibb.co/yqmCpDZ/eu1.jpg" />
-        </Logo>
+          
+        </Infos>        
+        <ProfileImage />
+
       </Content>
     </Container>
   );

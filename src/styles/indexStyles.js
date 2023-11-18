@@ -4,11 +4,6 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  // PARA DE ESQUECER QUE É "min-height"
-  min-height: calc(100vh - 100px);
-  @media (max-width: 820px) {
-    padding: 40px 0;
-  }
 `;
 
 export const Content = styled.div`
@@ -27,32 +22,23 @@ export const Content = styled.div`
 export const Infos = styled.div`
   text-align: start;
   width: 50%;
-  display: flex;
-  flex-direction: column;
-  @media (max-width: 760px) {
+  @media (max-width: 760px) {    
+    padding: 10%;
+    padding-top: 0;
     width: 100%;
   }
 `;
 
-export const Name = styled.span`
-  p {
-    font-size: 40px;
-    font-weight: 500;
-  }
-  @media (max-width: 996px) {
-    p {
-      font-size: 35px;
-    }
-  }
-  @media (max-width: 875px) {
-    p {
-      font-size: 30px;
-    }
+export const Name = styled.h1`  
+  font-weight: 500;
+  @media (max-width: 760px) {    
+    font-size: 25px;
+    text-align: center;
   }
 `;
 
-export const Function = styled.span`
-  font-size: 20px;
+export const Function = styled.h3`
+  font-weight: 500;
   color: lightgray;
   margin-bottom: 10px;
   @media (max-width: 996px) {
@@ -73,7 +59,7 @@ export const Intro = styled.span`
 `;
 
 export const LinkProjects = styled.button`
-  width: 10rem;
+  width: 10em;
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -110,9 +96,6 @@ export const Logo = styled.div`
 `;
 
 export const Div = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: 0.9rem;
-`;
-
-export const Img = styled.img``;
+display: flex;
+flex-direction: row;
+gap: 0.9rem;`
